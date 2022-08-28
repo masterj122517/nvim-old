@@ -56,10 +56,10 @@ return packer.startup(function(use)
 	use("folke/tokyonight.nvim")
 	use("nanotech/jellybeans.vim")
 	use("theniceboy/nvim-deus")
-  use {
-    'svrana/neosolarized.nvim',
-    requires = { 'tjdevries/colorbuddy.nvim' }
-  }
+	use({
+		"svrana/neosolarized.nvim",
+		requires = { "tjdevries/colorbuddy.nvim" },
+	})
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
 	use("hrsh7th/cmp-buffer") -- buffer completions
@@ -96,6 +96,9 @@ return packer.startup(function(use)
 	-- toggleterm
 	use("akinsho/toggleterm.nvim")
 	use("norcalli/nvim-colorizer.lua")
+
+	use("lewis6991/gitsigns.nvim")
+	use("dinhhuy258/git.nvim") -- For git blame & browse
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
