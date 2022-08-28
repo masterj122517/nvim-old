@@ -56,6 +56,10 @@ return packer.startup(function(use)
 	use("folke/tokyonight.nvim")
 	use("nanotech/jellybeans.vim")
 	use("theniceboy/nvim-deus")
+  use {
+    'svrana/neosolarized.nvim',
+    requires = { 'tjdevries/colorbuddy.nvim' }
+  }
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
 	use("hrsh7th/cmp-buffer") -- buffer completions
