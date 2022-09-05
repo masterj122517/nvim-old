@@ -90,7 +90,7 @@ return packer.startup(function(use)
 	use("nvim-treesitter/playground")
 
 	--markdown preview
-	use("iamcco/markdown-preview.vim")
+  	use("iamcco/markdown-preview.vim")
 
 	use("skywind3000/asyncrun.vim")
 	-- toggleterm

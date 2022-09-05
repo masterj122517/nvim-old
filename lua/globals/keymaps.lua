@@ -29,8 +29,6 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 
-vim.cmd " map J 5j "
-vim.cmd " map K 5k "
 vim.cmd "noremap <LEADER><CR> :nohlsearch<CR>"
 
 vim.keymap.set('n','sl',':set splitright<CR>:vsplit<CR>',opts)
