@@ -91,4 +91,8 @@ vim.keymap.set('n', 'dw', 'vb"_d')
 --select all 
 vim.keymap.set('n','<C-a>','gg<S-v>G')
 vim.keymap.set('n','te',':tabedit<CR>',opts)
+vim.cmd [[noremap J 5j]]
+
+vim.cmd [[noremap K 5k]]
+
 
