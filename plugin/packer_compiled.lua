@@ -263,6 +263,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/masterj/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/masterj/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 
