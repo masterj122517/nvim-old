@@ -102,6 +102,8 @@ return packer.startup(function(use)
   
   use("mg979/vim-visual-multi")
 
+   use { 'yaocccc/vim-fcitx2en', event = 'InsertLeavePre' }                       -- 退出输入模式时自动切换到英文
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
