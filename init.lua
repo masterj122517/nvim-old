@@ -1,3 +1,5 @@
+require("Plugins.leap")
+
 require "globals.keymaps"
 require "globals.options"
 require "Plugins.plugins"
@@ -16,3 +18,5 @@ require "Plugins.lsp.null-ls"
 --require "Plugins.lualine"
 require "globals.highlights"
 require "Plugins.gitsigns"
+
+

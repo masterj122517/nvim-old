@@ -99,10 +99,12 @@ return packer.startup(function(use)
 
 	use("lewis6991/gitsigns.nvim")
 	use("dinhhuy258/git.nvim") -- For git blame & browse
-  
-  use("mg979/vim-visual-multi")
 
-   use { 'yaocccc/vim-fcitx2en', event = 'InsertLeavePre' }                       -- 退出输入模式时自动切换到英文
+    use("ggandor/leap.nvim") -- neovim movement 
+  
+    use("mg979/vim-visual-multi")
+
+    use { 'yaocccc/vim-fcitx2en', event = 'InsertLeavePre' }                       -- 退出输入模式时自动切换到英文
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
