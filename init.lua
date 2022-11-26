@@ -18,5 +18,5 @@ require "Plugins.lsp.null-ls"
 --require "Plugins.lualine"
 require "globals.highlights"
 require "Plugins.gitsigns"
-
+require "Plugins.alpha"
 
