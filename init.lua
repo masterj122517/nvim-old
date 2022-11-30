@@ -19,4 +19,5 @@ require "Plugins.lsp.null-ls"
 require "globals.highlights"
 require "Plugins.gitsigns"
 require "Plugins.alpha"
-
+require "Plugins.MarkdownPreview"
+require "Plugins.lazygit"

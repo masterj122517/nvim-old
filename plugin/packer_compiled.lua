@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/masterj/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/home/masterj/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["asyncrun.vim"] = {
     loaded = true,
     path = "/home/masterj/.local/share/nvim/site/pack/packer/start/asyncrun.vim",
@@ -159,10 +164,10 @@ _G.packer_plugins = {
     path = "/home/masterj/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["markdown-preview.vim"] = {
+  ["markdown-preview.nvim"] = {
     loaded = true,
-    path = "/home/masterj/.local/share/nvim/site/pack/packer/start/markdown-preview.vim",
-    url = "https://github.com/iamcco/markdown-preview.vim"
+    path = "/home/masterj/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["neosolarized.nvim"] = {
     loaded = true,

@@ -90,7 +90,11 @@ return packer.startup(function(use)
 	use("nvim-treesitter/playground")
 
 	--markdown preview
-  	use("iamcco/markdown-preview.vim")
+
+    use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+    })
 
 	use("skywind3000/asyncrun.vim")
 	-- toggleterm
@@ -107,6 +111,9 @@ return packer.startup(function(use)
     use { 'yaocccc/vim-fcitx2en', event = 'InsertLeavePre' }                       -- 退出输入模式时自动切换到英文
 
     use ('goolord/alpha-nvim' )
+
+    --calling lazygit from within neovim
+    use ('kdheepak/lazygit.nvim')
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
