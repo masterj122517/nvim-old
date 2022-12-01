@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/masterj/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
     url = "https://github.com/nanotech/jellybeans.vim"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/masterj/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["leap.nvim"] = {
     loaded = true,
     path = "/home/masterj/.local/share/nvim/site/pack/packer/start/leap.nvim",
