@@ -1,8 +1,30 @@
-require'nvim-treesitter.configs'.setup {
-	-- one of "all", "language", or a list of languages
-	ensure_installed = {"typescript", "dart", "java", "c", "prisma", "bash", "go"},
-	highlight = {
-		enable = true,              -- false will disable the whole extension
-		disable = { "rust" },  -- list of language that will be disabled
-	},
+local status, ts = pcall(require, "nvim-treesitter.configs")
+if (not status) then return end
+
+ts.setup {
+  highlight = {
+    enable = true,
+    disable = {},
+  },
+  indent = {
+    enable = true,
+    disable = {},
+  },
+  ensure_installed = {
+    "tsx",
+    "toml",
+    "bash",
+    "php",
+    "json",
+    "yaml",
+    "css",
+    "html",
+    "lua"
+  },
+  autotag = {
+    enable = true,
+  },
 }
+
+local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+parser_config.tsx.filetype_to_parsername = { "javascript", "typescript.tsx" }
