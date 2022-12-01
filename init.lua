@@ -1,8 +1,9 @@
-require("Plugins.leap")
 
 require "globals.keymaps"
 require "globals.options"
 require "Plugins.plugins"
+
+require("Plugins.leap")
 
 require "Plugins.colorscheme"
 require "Plugins.cmp"
